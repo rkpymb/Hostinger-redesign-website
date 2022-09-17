@@ -1,0 +1,151 @@
+@media only screen and (max-width: 900px) {
+
+    /*Small smartphones [325px -> 425px]*/
+
+
+    .container {
+        min-width: 100%;
+        overflow: hidden;
+
+    }
+
+    .mobile_menu {
+        display: block;
+    }
+
+    .navlistbox {
+        display: none;
+    }
+
+    .Languages_box {
+        cursor: pointer;
+        border: none;
+        padding: 5px;
+        display: flex;
+    }
+
+    .offer_Content {
+        width: auto;
+    }
+
+    .offer_price span {
+        font-size: 30px;
+    }
+
+    .BrandLogo_item img {
+        width: 200px;
+    }
+
+    .Plan_Right {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        font-size: 15px;
+        flex-wrap: wrap;
+    }
+
+    .Plan_RightBox {
+        margin-left: 5px;
+    }
+
+    .planTag {
+        text-align: center;
+        padding: 5px;
+        background-color: rgba(255, 255, 255, 0.901);
+
+        color: rgb(0, 0, 0);
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    .PlanHeader {
+        padding: 15px;
+        border: none;
+        background-color: rgba(220, 237, 179, 0.901);
+
+
+    }
+
+    .Plan_left {
+        padding: 20px;
+        border: 1px dashed black;
+        width: 90%;
+        margin: auto;
+    }
+
+    .planfullDesc {
+        padding: 0px;
+    }
+
+    .DomainSearch {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+
+        padding: 10px;
+
+    }
+
+    .domain_left {
+        width: auto;
+    }
+
+    .domain_right {
+        width: auto;
+
+    }
+
+    .review_items {
+        width: auto;
+    }
+
+    .site-footerBOX {
+        width: auto;
+        padding: 5px;
+    }
+
+    .footer_item_aboutBOX {
+        width: auto;
+    }
+
+    .footer_item_menuBOX {
+        width: auto;
+    }
+
+    .offer_Content {
+        width: 100%;
+
+    }
+
+    .timer_item {
+
+        margin: 5px;
+
+    }
+
+    .Lang-menu {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: calc(100% +.25rem);
+        box-shadow: 0 1px 3px 0 rgb(0 0 0 / 22%);
+        padding: 10px;
+        width: 90%;
+        margin: auto !important;
+        z-index: 999;
+        transition: opacity 150ms ease-in-out;
+        opacity: 0;
+        background-color: white;
+        pointer-events: none;
+    }
+
+    .Offer_banner {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+}
