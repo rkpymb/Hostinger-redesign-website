@@ -617,3 +617,14 @@ a:hover {
     margin-left: 10px;
     width: auto;
 }
+.Languages_select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Languages_select img{
+    width: 20px;
+}
+.Languages_select span{
+    margin-left: 5px;
+}
